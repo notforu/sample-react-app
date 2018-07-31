@@ -1,0 +1,7 @@
+{
+	"clientId": "9f9af9b2db1e10b7b551",
+	"clientSecret": "a88a4d310a234d422bc83f47afd8df65834c8b1d",
+	"proxyUrl": "https://cors-anywhere.herokuapp.com/",
+	"authUrl": "https://github.com/login/oauth/authorize",
+	"redirectUrl": "http://localhost:8080/"
+}

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('fonts/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: 'RobotoItalic';
+    src: url('fonts/Roboto-Italic.ttf');
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+html, body, #root {
+	height: 100%;
+}
+
+* {
+	font-family: 'RobotoRegular';
+}
+
+a {
+	text-decoration: none;
+	color: #146EB3;
+}
+
+a:hover {
+	color: #263CA5;
+}
+
+i {
+	font-family: 'RobotoItalic';
+}
+
+b {
+	font-family: 'RobotoBold';
+}
+
+h1 {
+	text-align: center;
+	margin-top: 0;
+}
+
+hr {
+	margin: 0;
+}

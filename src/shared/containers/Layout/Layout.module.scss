@@ -1,0 +1,33 @@
+$padding: 20px;
+
+.container {
+	display: grid;
+	height: 100%;
+	grid-template-rows: 30px auto 30px;
+	grid-template-columns: auto;
+
+	header, footer {
+		padding: 0 $padding;
+	}
+
+	main {
+		display: grid;
+		padding: $padding;
+		overflow-y: auto;
+		justify-items: center;
+
+		& > div {
+			width: 100%;
+		}
+	}
+
+	header, footer {
+		background: #eee;
+		display: grid;
+		align-items: center;
+	}
+
+	footer {
+		font-size: 12px;
+	}
+}
